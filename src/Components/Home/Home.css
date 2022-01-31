@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arrial" , sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form{
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.form__btn{
+  text-transform: capitalize;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #000;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  height: 42px;
+}
+
+.form__select{
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.form__option{
+    font-size: 15px;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+.form__input{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.form__img{
+    position: relative;
+    top: 6px;
+    left: 35px;
+    /* transform: translate(35px); */
+    display: none;
+}
+
+.btn__img{
+    transform: translateY(2px);
+    margin-left: 8px;
+}
+
+.btn1{
+    box-shadow: 5px 10px 8px 0.5px rgb(68, 68, 68);
+}
+
+.wrapper{
+    display: flex;
+    max-width: 65%;
+    min-height: 250px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box{
+    margin-right: 5px;
+    border-right: 3px solid #000;
+}
+
+.box:last-child{
+    margin-right: 0;
+    border-right:none;
+}
+
+.box__summary{
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.box__details{
+    /* width: 120px; */
+    padding: 5px;
+}
+
+.box__title{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.pol{
+    margin-right: 30px;
+}
+
+
+.pol2{
+    margin-right: 10px;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.btn__delete{
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+  transform: translateY(15px);
+  margin-left: 20px;
+  display: none;
+}
+
+.hover{
+    display: flex;
+    align-items: center;
+}
+
+.hover:hover .btn__delete{
+    display: block;
+}
+
+.delete{
+    margin: 0;
+    padding: 0;
+    margin-top: 27px;
+}

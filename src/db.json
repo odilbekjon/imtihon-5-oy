@@ -1,0 +1,52 @@
+{
+  "todos": [
+    {
+      "id": 1643635077938,
+      "name": "Giaccoma",
+      "surname": "Guilzanno",
+      "age": "25",
+      "phoneNumber": "+998915179777",
+      "course": "SMM"
+    },
+    {
+      "id": 1643635187830,
+      "name": "Marco Bottom",
+      "surname": "Pato",
+      "age": "25",
+      "phoneNumber": "+998915888008",
+      "course": "Web development"
+    },
+    {
+      "id": 1643635258736,
+      "name": "Valeriya Liberty",
+      "surname": "Val",
+      "age": "18",
+      "phoneNumber": "+998977747744",
+      "course": "Data science"
+    },
+    {
+      "id": 1643635314133,
+      "name": "Mariah Maclahlan",
+      "surname": "patata",
+      "age": "45",
+      "phoneNumber": "+998972200220",
+      "course": "Graphic designer"
+    },
+    {
+      "id": 1643635945607,
+      "name": "Odiljon",
+      "surname": "Safarov",
+      "age": "21",
+      "phoneNumber": "+998915179774",
+      "course": "Web development"
+    },
+    {
+      "id": 1643636081233,
+      "name": "Asomiddin",
+      "surname": "Xalilov",
+      "age": "19",
+      "phoneNumber": "+998944627606",
+      "course": "SMM"
+    }
+  ]
+}
